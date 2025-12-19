@@ -22,10 +22,10 @@ function Spiral:update()
         local angle = self.counter / 6
         
         -- Spawn peluru 1
-        self:spawnBullet("smallbullet", x, y, angle, 5)
+        self:spawnBullet("smallbullets", x, y, angle, 5)
         
         -- Spawn peluru 2
-        self:spawnBullet("smallbullet", x, y, angle + math.pi, 5)
+        self:spawnBullet("smallbullets", x, y, angle + math.pi, 5)
     end
 
     super.update(self)

@@ -9,8 +9,8 @@ function Basic:onStart()
         local y = Utils.random(Game.battle.arena.top, Game.battle.arena.bottom)
 
         -- Spawn smallbullet going left with speed 8 (see scripts/battle/bullets/smallbullet.lua)
-        local bullet = self:spawnBullet("smallbullet", x, y, math.rad(180), 8)
-
+        local bullet = self:spawnBullet("duar", x, y, math.rad(180), 8)
+        
         -- Dont remove the bullet offscreen, because we spawn it offscreen
         bullet.remove_offscreen = false
     end)
