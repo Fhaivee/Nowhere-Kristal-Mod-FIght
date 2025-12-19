@@ -1,0 +1,62 @@
+{
+    // The ID of your mod. Should be unique!!
+    "id": "testlagiyaallah",
+    // Displays on the main menu.
+    "name": "testlagiyaallah",
+    // Displays underneath the name. Optional.
+    "subtitle": "",
+
+    // The version of your mod.
+    "version": "v1.0.0",
+    // What version of the engine your mod was made with.
+    "engineVer": "v0.9.0",
+
+    // The Deltarune chapter you'd like to base your mod off of.
+    "chapter": 1,
+
+    // The map that you start in when first starting the mod.
+    "map": "room2",
+    // The music that plays when first starting the mod.
+    "music": "field",
+
+    // The party. The first character is the player.
+    "party": ["kris", "susie", "ralsei"],
+
+    // The inventory.
+    "inventory": {
+        "items": ["glowshard", "darkburger", "darkburger", "darkburger"],
+        "key_items": ["cell_phone", "shadowcrystal"]
+    },
+
+    // Equipment for your party.
+    "equipment": {
+        "kris": {
+            "weapon": "wood_blade",
+            "armor": ["amber_card", "amber_card"]
+        },
+        "susie": {
+            "weapon": "mane_ax",
+            "armor": ["amber_card", "amber_card"]
+        },
+        "ralsei": {
+            "weapon": "red_scarf",
+            "armor": ["amber_card", "amber_card"]
+        }
+    },
+
+    "hardReset": false,
+    "hidden": false,
+    "setWindowTitleAndIcon": null,
+
+    // --- SAYA TAMBAHKAN BAGIAN INI ---
+    "dependencies": {
+        "magical-glass": ">=3.7.7"
+    },
+    // ---------------------------------
+
+    "config": {
+        "kristal": {
+            // End of config
+        }
+    }
+}
