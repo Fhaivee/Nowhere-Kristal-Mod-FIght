@@ -1,2 +1,5 @@
 .vscode/
 *.tiled-session
+.DS_Store
+Thumbs.db
+*.log
